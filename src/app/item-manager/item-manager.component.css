@@ -1,0 +1,21 @@
+.item-manager{
+    margin-top: 0.5rem;
+}
+input{
+    width: 50%;
+    border-bottom: 2px solid gray;
+    border-radius:8px;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+}
+button{
+    border-radius: 8px;
+    background-color: red;
+    font-size: 1.3rem;
+    padding:0.5rem, 0.5rem;
+    margin-left:0.5rem;
+}
+input:active{
+    border-radius: 8px;
+}

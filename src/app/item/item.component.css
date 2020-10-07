@@ -1,0 +1,16 @@
+li{
+    width: 50%;
+    border-bottom: 2px solid black;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+}
+button{
+    border-radius: 8px;
+    background-color: red;
+    font-size: 1.3rem;
+    margin-left:0.5rem;
+}
+ul{
+    list-style-type: none;
+}
