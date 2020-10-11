@@ -1,10 +1,10 @@
 <div class = 'item-manager'>
-    <input type="text" [(ngModel)]="item"> 
-    <button (click)="onClick()" >+</button>
+    <input type="text" name="item" [(ngModel)]="item"> 
+    <button [disabled] = "!item" (click)="onClick()" >+</button>
 </div>
 <ul *ngFor = "let item of items; let i = index">
     <li>
-        <app-item [todoTitle] = "item" ></app-item> <button class = "deleteBtn" (click)="items.splice(i,1)">-</button>
+        <app-item [todoTitle] = "item"></app-item> <button class = "deleteBtn" (click)="items.splice(i,1)">-</button>
     </li>
 </ul>
 

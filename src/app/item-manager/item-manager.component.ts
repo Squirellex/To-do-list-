@@ -10,6 +10,7 @@ import { NgModule } from '@angular/core'
 
 export class ItemManagerComponent implements OnInit {
     item:string;
+    id:number;
     items = []
   
 
@@ -17,7 +18,7 @@ export class ItemManagerComponent implements OnInit {
     }
 
     onClick(){
-      this.items.push({name: this.item});
+      this.items.push({name: this.item, id: this.id});
       this.item = '';
     }
 }

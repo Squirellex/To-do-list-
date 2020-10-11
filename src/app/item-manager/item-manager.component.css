@@ -28,3 +28,6 @@ button{
 input:active{
     border-radius: 8px;
 }
+ul{
+    list-style-type: none;
+}
